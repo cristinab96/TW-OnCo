@@ -1,0 +1,37 @@
+body{
+	height: 100%;
+    width: 100%;
+	background-image: url("../../imagini/background.jpg");
+	background-size: cover}
+
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    padding:30px;
+    width:335px;
+    display: flex;
+    flex-direction: column;}
+
+.container p{
+    margin-bottom: 5px;}
+
+.nameCont{
+    display:flex;}
+
+.mInput{
+    margin-left: 10px;}
+
+.contact{
+    display: flex;}
+    
+.createButton{
+    width: 40%;
+    margin:auto;
+    padding: 10px;
+    background-color: #e69900 ;
+    color: white;
+    font-weight: bold;
+    border: none;}

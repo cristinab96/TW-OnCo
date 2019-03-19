@@ -1,0 +1,28 @@
+body{
+	height: 100%;
+    width: 100%;
+	background-image: url("../../imagini/background.jpg");
+	background-size: cover
+}
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    margin-top: 12%;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;}
+
+.login{
+	margin: auto;
+    margin-top: 20%;
+    text-align: center;}
+
+input{
+	border-radius: 10px;
+    font-weight: bold;
+    padding: 7px;
+    margin: 4px;}
